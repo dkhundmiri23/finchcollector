@@ -1,0 +1,3 @@
+{% for finch in finches %}
+    <a href="{% url 'details' finch.id %}">{{ finch.name }}</a><br>
+{% endfor %}
